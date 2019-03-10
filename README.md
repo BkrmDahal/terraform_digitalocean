@@ -1,9 +1,9 @@
 # Digital ocean terraform
+
+Make a droplet and install `docker` and `docker-compose`.
 ```bash
 terraform apply -var-file="testing_default.tfvars"
 ```
-
-__default value__
 ```
 # testing_default.tfvars
 token = "94db2d0"
